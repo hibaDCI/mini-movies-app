@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.card {
+  border: 1px solid grey;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 25px;
+}
+.spinner {
+  text-align: center;
+  font-size: 100px; /* Adjust the size as needed */
+  color: #007bff; /* Adjust the color as needed */
+  animation: spin 2s linear infinite; /* Optional: Add a spinning animation */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
